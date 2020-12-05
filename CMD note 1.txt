@@ -1,0 +1,2847 @@
+Microsoft Windows [Version 10.0.18362.720]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>git --version
+git version 2.29.2.windows.2
+
+C:\Windows\system32>node --version
+'node' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>node --version
+'node' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>node --version
+'node' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>node --version
+'node' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>node --version
+'node' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>node --version
+'node' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>git --version
+git version 2.29.2.windows.2
+
+C:\Windows\system32>
+C:\Windows\system32>node --version
+'node' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Windows\system32>D:
+
+D:\>mkdir corsera-projects
+
+D:\>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is 7EB2-7914
+
+ Directory of D:\
+
+11/23/2020  02:07 PM    <DIR>          Anuradapura
+11/23/2020  02:07 PM    <DIR>          Blemish Remover
+10/18/2019  10:11 AM            13,367 Book1.xlsx
+11/23/2020  02:07 PM    <DIR>          Camera
+11/23/2020  02:07 PM    <DIR>          Collage
+05/02/2019  09:31 AM           158,961 comapany extensions.pdf
+12/05/2020  12:15 PM    <DIR>          corsera-projects
+11/23/2020  02:06 PM    <DIR>          Effects
+11/23/2020  02:06 PM    <DIR>          Facebook
+11/23/2020  02:06 PM    <DIR>          GIF
+11/23/2020  02:07 PM    <DIR>          imo
+11/23/2020  02:16 PM    <DIR>          IMO images
+11/23/2020  02:16 PM    <DIR>          IMO videos
+05/14/2020  10:00 AM           357,213 Kaduruwela.xlsx
+10/25/2006  10:31 PM       297,823,232 Lnp introduction.ppt
+11/23/2020  02:12 PM    <DIR>          mASENGER
+11/23/2020  02:07 PM    <DIR>          mei
+11/23/2020  02:07 PM    <DIR>          PhotoGridBuilder
+11/23/2020  02:07 PM    <DIR>          Picture Cut Editor Pro
+11/23/2020  02:07 PM    <DIR>          Screenshots
+12/02/2020  12:28 PM    <DIR>          wHATSAPP
+11/23/2020  02:07 PM    <DIR>          Yevin puththa
+               4 File(s)    298,352,773 bytes
+              18 Dir(s)  522,626,170,880 bytes free
+
+D:\>cd corsera-projects
+
+D:\corsera-projects>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is 7EB2-7914
+
+ Directory of D:\corsera-projects
+
+12/05/2020  12:15 PM    <DIR>          .
+12/05/2020  12:15 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  522,626,170,880 bytes free
+
+D:\corsera-projects>git clone https://github.com/UdeniBasnayaka/coursera-test.git
+Cloning into 'coursera-test'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+D:\corsera-projects>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is 7EB2-7914
+
+ Directory of D:\corsera-projects
+
+12/05/2020  12:18 PM    <DIR>          .
+12/05/2020  12:18 PM    <DIR>          ..
+12/05/2020  12:18 PM    <DIR>          coursera-test
+               0 File(s)              0 bytes
+               3 Dir(s)  522,626,121,728 bytes free
+
+D:\corsera-projects>cd   coursera-test
+
+D:\corsera-projects\coursera-test>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is 7EB2-7914
+
+ Directory of D:\corsera-projects\coursera-test
+
+12/05/2020  12:18 PM    <DIR>          .
+12/05/2020  12:18 PM    <DIR>          ..
+12/05/2020  12:18 PM                41 README.md
+               1 File(s)             41 bytes
+               2 Dir(s)  522,626,121,728 bytes free
+
+D:\corsera-projects\coursera-test>code.
+'code.' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>code .
+
+D:\corsera-projects\coursera-test>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\corsera-projects\coursera-test>git add .
+
+D:\corsera-projects\coursera-test>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+
+D:\corsera-projects\coursera-test>git commit -m "first file" web "file"
+error: pathspec 'web' did not match any file(s) known to git
+error: pathspec 'file' did not match any file(s) known to git
+
+D:\corsera-projects\coursera-test>git commit -m "first file" "file"
+error: pathspec 'file' did not match any file(s) known to git
+
+D:\corsera-projects\coursera-test>git commit -m "first file"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'HP User@DESKTOP-FSC94M8.(none)')
+
+D:\corsera-projects\coursera-test>git config --global user.email "udeni.basnayaka@gmail.com"
+
+D:\corsera-projects\coursera-test>git config --global user.name "UdeniBasnayake"
+
+D:\corsera-projects\coursera-test>Microsoft Windows [Version 10.0.18362.720]
+'Microsoft' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>(c) 2019 Microsoft Corporation. All rights reserved.
+2019 was unexpected at this time.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>git --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>git version 2.29.2.windows.2
+git version 2.29.2.windows.2
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>git --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>git version 2.29.2.windows.2
+git version 2.29.2.windows.2
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>D:
+Access is denied.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\>mkdir corsera-projects
+'D:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\>dir
+'D:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test> Directory of D:\
+'Directory' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Anuradapura
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Blemish Remover
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>10/18/2019  10:11 AM            13,367 Book1.xlsx
+'10' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Camera
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Collage
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>05/02/2019  09:31 AM           158,961 comapany extensions.pdf
+'05' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:15 PM    <DIR>          corsera-projects
+'12' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:06 PM    <DIR>          Effects
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:06 PM    <DIR>          Facebook
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:06 PM    <DIR>          GIF
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          imo
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:16 PM    <DIR>          IMO images
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:16 PM    <DIR>          IMO videos
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>05/14/2020  10:00 AM           357,213 Kaduruwela.xlsx
+'05' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>10/25/2006  10:31 PM       297,823,232 Lnp introduction.ppt
+'10' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:12 PM    <DIR>          mASENGER
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          mei
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          PhotoGridBuilder
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Picture Cut Editor Pro
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Screenshots
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>12/02/2020  12:28 PM    <DIR>          wHATSAPP
+'12' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Yevin puththa
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               4 File(s)    298,352,773 bytes
+'4' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>              18 Dir(s)  522,626,170,880 bytes free
+'18' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\>cd corsera-projects
+'D:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects>dir
+'D:\corsera-projects' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test> Directory of D:\corsera-projects
+'Directory' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>12/05/2020  12:15 PM    <DIR>          .
+Access is denied.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:15 PM    <DIR>          ..
+Access is denied.
+
+D:\corsera-projects\coursera-test>               0 File(s)              0 bytes
+'0' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               2 Dir(s)  522,626,170,880 bytes free
+'2' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects>git clone https://github.com/UdeniBasnayaka/coursera-test.git
+'D:\corsera-projects' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Cloning into 'coursera-test'...
+'Cloning' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>remote: Enumerating objects: 3, done.
+'remote:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>remote: Counting objects: 100% (3/3), done.
+'remote:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+'remote:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Receiving objects: 100% (3/3), done.
+'Receiving' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects>dir
+'D:\corsera-projects' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test> Directory of D:\corsera-projects
+'Directory' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          .
+Access is denied.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          ..
+Access is denied.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          coursera-test
+'12' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               0 File(s)              0 bytes
+'0' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               3 Dir(s)  522,626,121,728 bytes free
+'3' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects>cd   coursera-test
+'D:\corsera-projects' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>dir
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test> Directory of D:\corsera-projects\coursera-test
+'Directory' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          .
+Access is denied.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          ..
+Access is denied.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM                41 README.md
+'12' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               1 File(s)             41 bytes
+'1' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               2 Dir(s)  522,626,121,728 bytes free
+'2' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>code.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'code.' is not recognized as an internal or external command,
+''code.'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>code .
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git status
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>On branch main
+'On' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Your branch is up to date with 'origin/main'.
+'Your' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>Untracked files:
+'Untracked' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>  (use "git add <file>..." to include in what will be committed)
+'use' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>        index.html
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>nothing added to commit but untracked files present (use "git add" to track)
+'nothing' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git add .
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git status
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>On branch main
+'On' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Your branch is up to date with 'origin/main'.
+'Your' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>Changes to be committed:
+'Changes' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>  (use "git restore --staged <file>..." to unstage)
+'use' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>        new file:   index.html
+'new' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git commit -m "first file" web "file"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>error: pathspec 'web' did not match any file(s) known to git
+'error:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>error: pathspec 'file' did not match any file(s) known to git
+'error:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git commit -m "first file" "file"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>error: pathspec 'file' did not match any file(s) known to git
+'error:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git commit -m "first file"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Author identity unknown
+'Author' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>*** Please tell me who you are.
+'***' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>Run
+'Run' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>  git config --global user.email "you@example.com"
+
+D:\corsera-projects\coursera-test>  git config --global user.name "Your Name"
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>to set your account's default identity.
+'to' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Omit --global to set the identity only in this repository.
+'Omit' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>fatal: unable to auto-detect email address (got 'HP User@DESKTOP-FSC94M8.(none)')
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git config --global user.email "udeni.basnayaka@gmail.com"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git config --global user.name "UdeniBasnayake"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Microsoft Windows [Version 10.0.18362.720]
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>(c) 2019 Microsoft Corporation. All rights reserved.
+2019 was unexpected at this time.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>git --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>git version 2.29.2.windows.2
+git version 2.29.2.windows.2
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>git --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>git version 2.29.2.windows.2
+git version 2.29.2.windows.2
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'C:\Windows\system32' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+''node'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>C:\Windows\system32>D:
+Access is denied.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\>mkdir corsera-projects
+'D:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\>dir
+'D:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test> Directory of D:\
+'Directory' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Anuradapura
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Blemish Remover
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>10/18/2019  10:11 AM            13,367 Book1.xlsx
+'10' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Camera
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Collage
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>05/02/2019  09:31 AM           158,961 comapany extensions.pdf
+'05' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:15 PM    <DIR>          corsera-projects
+'12' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:06 PM    <DIR>          Effects
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:06 PM    <DIR>          Facebook
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:06 PM    <DIR>          GIF
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          imo
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:16 PM    <DIR>          IMO images
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:16 PM    <DIR>          IMO videos
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>05/14/2020  10:00 AM           357,213 Kaduruwela.xlsx
+'05' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>10/25/2006  10:31 PM       297,823,232 Lnp introduction.ppt
+'10' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:12 PM    <DIR>          mASENGER
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          mei
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          PhotoGridBuilder
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Picture Cut Editor Pro
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Screenshots
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>12/02/2020  12:28 PM    <DIR>          wHATSAPP
+'12' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Yevin puththa
+'11' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               4 File(s)    298,352,773 bytes
+'4' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>              18 Dir(s)  522,626,170,880 bytes free
+'18' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\>cd corsera-projects
+'D:\' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects>dir
+'D:\corsera-projects' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test> Directory of D:\corsera-projects
+'Directory' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>12/05/2020  12:15 PM    <DIR>          .
+Access is denied.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:15 PM    <DIR>          ..
+Access is denied.
+
+D:\corsera-projects\coursera-test>               0 File(s)              0 bytes
+'0' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               2 Dir(s)  522,626,170,880 bytes free
+'2' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects>git clone https://github.com/UdeniBasnayaka/coursera-test.git
+'D:\corsera-projects' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Cloning into 'coursera-test'...
+'Cloning' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>remote: Enumerating objects: 3, done.
+'remote:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>remote: Counting objects: 100% (3/3), done.
+'remote:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+'remote:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Receiving objects: 100% (3/3), done.
+'Receiving' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects>dir
+'D:\corsera-projects' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test> Directory of D:\corsera-projects
+'Directory' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          .
+Access is denied.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          ..
+Access is denied.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          coursera-test
+'12' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               0 File(s)              0 bytes
+'0' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               3 Dir(s)  522,626,121,728 bytes free
+'3' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects>cd   coursera-test
+'D:\corsera-projects' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>dir
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'Volume' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test> Directory of D:\corsera-projects\coursera-test
+'Directory' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          .
+Access is denied.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          ..
+Access is denied.
+
+D:\corsera-projects\coursera-test>12/05/2020  12:18 PM                41 README.md
+'12' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               1 File(s)             41 bytes
+'1' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>               2 Dir(s)  522,626,121,728 bytes free
+'2' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>code.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'code.' is not recognized as an internal or external command,
+''code.'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>code .
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git status
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>On branch main
+'On' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Your branch is up to date with 'origin/main'.
+'Your' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>Untracked files:
+'Untracked' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>  (use "git add <file>..." to include in what will be committed)
+'use' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>        index.html
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>nothing added to commit but untracked files present (use "git add" to track)
+'nothing' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git add .
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git status
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>On branch main
+'On' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Your branch is up to date with 'origin/main'.
+'Your' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>Changes to be committed:
+'Changes' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>  (use "git restore --staged <file>..." to unstage)
+'use' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>        new file:   index.html
+'new' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git commit -m "first file" web "file"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>error: pathspec 'web' did not match any file(s) known to git
+'error:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>error: pathspec 'file' did not match any file(s) known to git
+'error:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git commit -m "first file" "file"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>error: pathspec 'file' did not match any file(s) known to git
+'error:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git commit -m "first file"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Author identity unknown
+'Author' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>*** Please tell me who you are.
+'***' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>Run
+'Run' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>  git config --global user.email "you@example.com"
+
+D:\corsera-projects\coursera-test>  git config --global user.name "Your Name"
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>to set your account's default identity.
+'to' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>Omit --global to set the identity only in this repository.
+'Omit' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>fatal: unable to auto-detect email address (got 'HP User@DESKTOP-FSC94M8.(none)')
+'fatal:' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git config --global user.email "udeni.basnayaka@gmail.com"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git config --global user.name "UdeniBasnayake"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Microsoft Windows [Version 10.0.18362.720]
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Microsoft' is not recognized as an internal or external command,
+''Microsoft'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>(c) 2019 Microsoft Corporation. All rights reserved.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>2019 was unexpected at this time.
+'2019' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>git --version
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'C:\Windows\system32' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git version 2.29.2.windows.2
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>git version 2.29.2.windows.2
+git version 2.29.2.windows.2
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'C:\Windows\system32' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>''node'' is not recognized as an internal or external command,
+'''node''' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>operable program or batch file.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'operable' is not recognized as an internal or external command,
+''operable'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'C:\Windows\system32' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>''node'' is not recognized as an internal or external command,
+'''node''' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>operable program or batch file.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'operable' is not recognized as an internal or external command,
+''operable'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'C:\Windows\system32' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>''node'' is not recognized as an internal or external command,
+'''node''' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>operable program or batch file.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'operable' is not recognized as an internal or external command,
+''operable'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'C:\Windows\system32' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>''node'' is not recognized as an internal or external command,
+'''node''' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>operable program or batch file.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'operable' is not recognized as an internal or external command,
+''operable'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'C:\Windows\system32' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>''node'' is not recognized as an internal or external command,
+'''node''' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>operable program or batch file.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'operable' is not recognized as an internal or external command,
+''operable'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'C:\Windows\system32' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>''node'' is not recognized as an internal or external command,
+'''node''' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>operable program or batch file.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'operable' is not recognized as an internal or external command,
+''operable'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>git --version
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'C:\Windows\system32' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git version 2.29.2.windows.2
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>git version 2.29.2.windows.2
+git version 2.29.2.windows.2
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>The syntax of the command is incorrect.
+'The' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>node --version
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'C:\Windows\system32' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>'node' is not recognized as an internal or external command,
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>''node'' is not recognized as an internal or external command,
+'''node''' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>operable program or batch file.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'operable' is not recognized as an internal or external command,
+''operable'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>C:\Windows\system32>D:
+Access is denied.
+
+D:\corsera-projects\coursera-test>Access is denied.
+'Access' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\>mkdir corsera-projects
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\>dir
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Volume' is not recognized as an internal or external command,
+''Volume'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Volume' is not recognized as an internal or external command,
+''Volume'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Directory of D:\
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Directory' is not recognized as an internal or external command,
+''Directory'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Anuradapura
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Blemish Remover
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>10/18/2019  10:11 AM            13,367 Book1.xlsx
+The system cannot find the path specified.
+
+D:\corsera-projects\coursera-test>'10' is not recognized as an internal or external command,
+''10'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Camera
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Collage
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>05/02/2019  09:31 AM           158,961 comapany extensions.pdf
+The system cannot find the path specified.
+
+D:\corsera-projects\coursera-test>'05' is not recognized as an internal or external command,
+''05'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>12/05/2020  12:15 PM    <DIR>          corsera-projects
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'12' is not recognized as an internal or external command,
+''12'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:06 PM    <DIR>          Effects
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:06 PM    <DIR>          Facebook
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:06 PM    <DIR>          GIF
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          imo
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:16 PM    <DIR>          IMO images
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:16 PM    <DIR>          IMO videos
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>05/14/2020  10:00 AM           357,213 Kaduruwela.xlsx
+The system cannot find the path specified.
+
+D:\corsera-projects\coursera-test>'05' is not recognized as an internal or external command,
+''05'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>10/25/2006  10:31 PM       297,823,232 Lnp introduction.ppt
+The system cannot find the path specified.
+
+D:\corsera-projects\coursera-test>'10' is not recognized as an internal or external command,
+''10'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:12 PM    <DIR>          mASENGER
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          mei
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          PhotoGridBuilder
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Picture Cut Editor Pro
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Screenshots
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>12/02/2020  12:28 PM    <DIR>          wHATSAPP
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'12' is not recognized as an internal or external command,
+''12'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>11/23/2020  02:07 PM    <DIR>          Yevin puththa
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'11' is not recognized as an internal or external command,
+''11'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>               4 File(s)    298,352,773 bytes
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'4' is not recognized as an internal or external command,
+''4'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>              18 Dir(s)  522,626,170,880 bytes free
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'18' is not recognized as an internal or external command,
+''18'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\>cd corsera-projects
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects>dir
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Volume' is not recognized as an internal or external command,
+''Volume'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Volume' is not recognized as an internal or external command,
+''Volume'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Directory of D:\corsera-projects
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Directory' is not recognized as an internal or external command,
+''Directory'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>12/05/2020  12:15 PM    <DIR>          .
+Access is denied.
+
+D:\corsera-projects\coursera-test>Access is denied.
+'Access' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>12/05/2020  12:15 PM    <DIR>          ..
+Access is denied.
+
+D:\corsera-projects\coursera-test>Access is denied.
+'Access' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>               0 File(s)              0 bytes
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'0' is not recognized as an internal or external command,
+''0'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>               2 Dir(s)  522,626,170,880 bytes free
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'2' is not recognized as an internal or external command,
+''2'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects>git clone https://github.com/UdeniBasnayaka/coursera-test.git
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Cloning into 'coursera-test'...
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Cloning' is not recognized as an internal or external command,
+''Cloning'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>remote: Enumerating objects: 3, done.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'remote:' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>remote: Counting objects: 100% (3/3), done.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'remote:' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'remote:' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Receiving objects: 100% (3/3), done.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Receiving' is not recognized as an internal or external command,
+''Receiving'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects>dir
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Volume' is not recognized as an internal or external command,
+''Volume'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Volume' is not recognized as an internal or external command,
+''Volume'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Directory of D:\corsera-projects
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Directory' is not recognized as an internal or external command,
+''Directory'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          .
+Access is denied.
+
+D:\corsera-projects\coursera-test>Access is denied.
+'Access' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          ..
+Access is denied.
+
+D:\corsera-projects\coursera-test>Access is denied.
+'Access' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          coursera-test
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'12' is not recognized as an internal or external command,
+''12'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>               0 File(s)              0 bytes
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'0' is not recognized as an internal or external command,
+''0'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>               3 Dir(s)  522,626,121,728 bytes free
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'3' is not recognized as an internal or external command,
+''3'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects>cd   coursera-test
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>dir
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Volume in drive D is New Volume
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Volume' is not recognized as an internal or external command,
+''Volume'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Volume Serial Number is 7EB2-7914
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Volume' is not recognized as an internal or external command,
+''Volume'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test> Directory of D:\corsera-projects\coursera-test
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Directory' is not recognized as an internal or external command,
+''Directory'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          .
+Access is denied.
+
+D:\corsera-projects\coursera-test>Access is denied.
+'Access' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>12/05/2020  12:18 PM    <DIR>          ..
+Access is denied.
+
+D:\corsera-projects\coursera-test>Access is denied.
+'Access' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>12/05/2020  12:18 PM                41 README.md
+The system cannot find the path specified.
+
+D:\corsera-projects\coursera-test>'12' is not recognized as an internal or external command,
+''12'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>               1 File(s)             41 bytes
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'1' is not recognized as an internal or external command,
+''1'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>               2 Dir(s)  522,626,121,728 bytes free
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'2' is not recognized as an internal or external command,
+''2'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>code.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>'code.' is not recognized as an internal or external command,
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>''code.'' is not recognized as an internal or external command,
+'''code.''' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>operable program or batch file.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'operable' is not recognized as an internal or external command,
+''operable'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>code .
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git status
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>On branch main
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'On' is not recognized as an internal or external command,
+''On'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Your branch is up to date with 'origin/main'.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Your' is not recognized as an internal or external command,
+''Your'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Untracked files:
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Untracked' is not recognized as an internal or external command,
+''Untracked'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>  (use "git add <file>..." to include in what will be committed)
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'use' is not recognized as an internal or external command,
+''use'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>        index.html
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>nothing added to commit but untracked files present (use "git add" to track)
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'nothing' is not recognized as an internal or external command,
+''nothing'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git add .
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git status
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>On branch main
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'On' is not recognized as an internal or external command,
+''On'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Your branch is up to date with 'origin/main'.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Your' is not recognized as an internal or external command,
+''Your'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Changes to be committed:
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Changes' is not recognized as an internal or external command,
+''Changes'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>  (use "git restore --staged <file>..." to unstage)
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'use' is not recognized as an internal or external command,
+''use'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>        new file:   index.html
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'new' is not recognized as an internal or external command,
+''new'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git commit -m "first file" web "file"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>error: pathspec 'web' did not match any file(s) known to git
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'error:' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>error: pathspec 'file' did not match any file(s) known to git
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'error:' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git commit -m "first file" "file"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>error: pathspec 'file' did not match any file(s) known to git
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'error:' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git commit -m "first file"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Author identity unknown
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Author' is not recognized as an internal or external command,
+''Author'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>*** Please tell me who you are.
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>'***' is not recognized as an internal or external command,
+''***'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Run
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Run' is not recognized as an internal or external command,
+''Run'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>  git config --global user.email "you@example.com"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>  git config --global user.name "Your Name"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>to set your account's default identity.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'to' is not recognized as an internal or external command,
+''to'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>Omit --global to set the identity only in this repository.
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'Omit' is not recognized as an internal or external command,
+''Omit'' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>fatal: unable to auto-detect email address (got 'HP User@DESKTOP-FSC94M8.(none)')
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'fatal:' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git config --global user.email "udeni.basnayaka@gmail.com"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>git config --global user.name "UdeniBasnayake"
+'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>'D:\corsera-projects\coursera-test' is not recognized as an internal or external command,
+The filename, directory name, or volume label syntax is incorrect.
+
+D:\corsera-projects\coursera-test>operable program or batch file.
+'operable' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\corsera-projects\coursera-test>
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
+The syntax of the command is incorrect.
+D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>D:\corsera-projects\coursera-test>
